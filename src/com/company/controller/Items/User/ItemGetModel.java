@@ -21,6 +21,6 @@ public class ItemGetModel extends CarItem {
     public void perform() {
         String modelName = inputOutput.getString("Введите название модели: ");
         Model model = company.getModel(modelName);
-        inputOutput.displayLine(model.toString());
+        inputOutput.displayLine(model == null ? "такой модели не существует" : model.toString());
     }
 }

@@ -1,6 +1,6 @@
+package com.company.about;
 
 import com.company.dao.RentCompany;
-import com.company.tests.ClassStructure;
 
 
 public class About {

@@ -106,13 +106,6 @@ public class RentCompanyTest {
     public void addModel() {
         assertThrows(WrongArgumentException.class, () -> rentCompany.addModel(null));
 
-//        boolean t = false;
-//        try {
-//            rentCompany.addModel(null);
-//        } catch (WrongArgumentException exception) {
-//            t = true;
-//        }
-//        assertTrue(t);
         assertEquals(CarsReturnCode.MODEL_EXISTS, rentCompany.addModel(model1));
 
         assertEquals(CarsReturnCode.OK, rentCompany.addModel(model2));

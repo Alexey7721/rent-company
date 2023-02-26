@@ -1,4 +1,4 @@
-package com.company.tests;
+package com.company.about;
 
 import java.lang.reflect.*;
 import java.util.StringJoiner;

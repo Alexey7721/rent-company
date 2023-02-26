@@ -80,7 +80,7 @@ public class RentCompany extends AbstractRentCompany implements Serializable {
 
     @Override
     public Model getModel(String modelName) {
-        return models.get(modelName);
+        return models.containsKey(modelName) ? models.get(modelName) : null;
     }
 
     @Override

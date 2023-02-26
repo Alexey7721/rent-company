@@ -20,12 +20,11 @@ public class ItemAddModel extends CarItem {
 
     @Override
     public void perform() {
-//        Model(String modelName, int gasTank, String country, int priceDay, String company)
-        String modelName = inputOutput.getString("Название модели: ");
-        int gasTank = inputOutput.getInteger("Объем бака: ");
-        String country = inputOutput.getString("Страна производитель: ");
-        int priceDay = inputOutput.getInteger("Стоимость аренды за сутки: ");
         String carBrand = inputOutput.getString("Компания: ");
+        String modelName = inputOutput.getString("Название модели: ");
+        String country = inputOutput.getString("Страна производитель: ");
+        int gasTank = inputOutput.getInteger("Объем бака: ");
+        int priceDay = inputOutput.getInteger("Стоимость аренды за сутки: ");
         Model model = new Model(modelName, gasTank, country, priceDay, carBrand);
         CarsReturnCode carsReturnCode = company.addModel(model);
         inputOutput.displayLine(carsReturnCode.toString());
