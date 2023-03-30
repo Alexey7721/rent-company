@@ -1,8 +1,8 @@
 package com.company.controller.Items;
 
 import com.company.menu.InputOutput;
-import com.company.menu.Item;
-import com.company.menu.MenuWithExit;
+import com.company.menu.items.Item;
+import com.company.menu.menu.MenuWithExit;
 
 public abstract class CarItemSubmenu extends CarItem{
     private Item[] items;

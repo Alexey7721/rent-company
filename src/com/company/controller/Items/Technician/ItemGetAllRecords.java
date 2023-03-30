@@ -1,10 +1,9 @@
 package com.company.controller.Items.Technician;
 
 import com.company.controller.Items.CarItem;
-import com.company.dao.RentCompany;
 import com.company.domain.RentRecord;
 import com.company.menu.InputOutput;
-import com.company.menu.Item;
+
 
 import java.util.List;
 import java.util.stream.Collectors;

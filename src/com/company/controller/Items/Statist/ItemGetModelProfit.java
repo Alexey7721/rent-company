@@ -1,9 +1,7 @@
 package com.company.controller.Items.Statist;
 
 import com.company.controller.Items.CarItem;
-import com.company.dao.RentCompany;
 import com.company.menu.InputOutput;
-import com.company.menu.Item;
 
 public class ItemGetModelProfit extends CarItem {
 

@@ -1,10 +1,8 @@
 package com.company.controller.Items.Clerk;
 
 import com.company.controller.Items.CarItem;
-import com.company.dao.RentCompany;
 import com.company.dto.CarsReturnCode;
 import com.company.menu.InputOutput;
-import com.company.menu.Item;
 
 import java.time.LocalDate;
 

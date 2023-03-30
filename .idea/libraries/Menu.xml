@@ -1,11 +1,9 @@
 <component name="libraryTable">
-  <library name="Menu">
+  <library name="menu">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../Menu/out/artifacts/Menu_jar/Menu.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../munu/out/artifacts/menu/menu.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="file://$PROJECT_DIR$/../Menu/javadoc" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES />
   </library>
 </component>

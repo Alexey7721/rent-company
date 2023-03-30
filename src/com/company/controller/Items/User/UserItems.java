@@ -1,11 +1,8 @@
 package com.company.controller.Items.User;
 
-import com.company.controller.Items.CarItem;
 import com.company.controller.Items.CarItemSubmenu;
-import com.company.menu.ExitItem;
 import com.company.menu.InputOutput;
-import com.company.menu.Item;
-import com.company.menu.Menu;
+import com.company.menu.items.Item;
 
 public class UserItems extends CarItemSubmenu {
     public UserItems(InputOutput inputOutput, Item[] items) {

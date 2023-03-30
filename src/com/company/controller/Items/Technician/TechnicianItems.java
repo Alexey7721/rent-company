@@ -1,12 +1,8 @@
 package com.company.controller.Items.Technician;
 
-
-import com.company.controller.Items.CarItem;
 import com.company.controller.Items.CarItemSubmenu;
-import com.company.menu.ExitItem;
 import com.company.menu.InputOutput;
-import com.company.menu.Item;
-import com.company.menu.Menu;
+import com.company.menu.items.Item;
 
 public class TechnicianItems extends CarItemSubmenu {
     public TechnicianItems(InputOutput inputOutput, Item[] items) {

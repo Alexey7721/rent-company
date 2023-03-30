@@ -1,11 +1,9 @@
 package com.company.controller.Items.Administrator;
 
 import com.company.controller.Items.CarItem;
-import com.company.dao.RentCompany;
 import com.company.domain.Car;
 import com.company.dto.CarsReturnCode;
 import com.company.menu.InputOutput;
-import com.company.menu.Item;
 
 import java.util.*;
 
